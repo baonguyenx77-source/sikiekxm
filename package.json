@@ -1,0 +1,47 @@
+{
+  "name": "sunwin-tx-ai-balanced",
+  "version": "10.0.0",
+  "description": "AI Tài Xỉu Sunwin Pro - Balanced Edition v10.0 (11 thuật toán, 15 mẫu cầu thực từ 3,866 phiên)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "debug": "node --inspect server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "sunwin",
+    "tai-xiu",
+    "dice",
+    "prediction",
+    "ai",
+    "ensemble",
+    "markov",
+    "pattern-recognition",
+    "fastify"
+  ],
+  "author": "@cskhgiabao",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/sunwin-tx-ai-balanced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/sunwin-tx-ai-balanced/issues"
+  },
+  "homepage": "https://github.com/your-username/sunwin-tx-ai-balanced#readme",
+  "config": {
+    "port": 3000
+  }
+}
